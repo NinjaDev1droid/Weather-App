@@ -26,15 +26,15 @@ body {
 .app-cold,
 /* Default (no city searched yet) */
 .app-default {
-  background-image: url('./images/neist-point-skye.jpeg');
+  background-image: url('./images/cold.jpg');
 }
 
 /* 15–25°C — warm */
 .app-warm,
 /* Above 25°C — hot */
 .app-hot {
-  background-image: url('./images/floods15.jpg');
-  background-position: center top;
+  background-image: url('./images/hot.jpg');
+  background-position: center;
 }
 
 /* ========================
@@ -71,9 +71,9 @@ main {
 .app-warm main {
   background: linear-gradient(
     160deg,
-    rgba(20, 55, 15, 0.48) 0%,
-    rgba(50, 95, 25, 0.22) 45%,
-    rgba(10, 40, 10, 0.68) 100%
+    rgba(90, 50, 10, 0.45) 0%,
+    rgba(160, 100, 30, 0.2) 45%,
+    rgba(70, 35, 5, 0.68) 100%
   );
 }
 
